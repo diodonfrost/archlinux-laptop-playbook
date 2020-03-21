@@ -1,2 +1,33 @@
 ---
-    # defaults file for archlinux-laptop-playbook
+os_packages:
+  - ark
+  - code
+  - discord
+  - docker
+  - dolphin
+  - firefox
+  - git
+  - htop
+  - keepass
+  - konsole
+  - networkmanager-openvpn
+  - net-tools
+  - nvidia
+  - nvidia-settings
+  - okular
+  - openvpn
+  - packer
+  - pavucontrol
+  - python
+  - python-pip
+  - sddm
+  - steam
+  - strace
+  - terminator
+  - terraform
+  - vagrant
+  - vim
+  - virtualbox
+  - wine-staging
+  - zsh
+

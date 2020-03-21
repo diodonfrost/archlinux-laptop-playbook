@@ -1,0 +1,5 @@
+---
+- name: Package | Install os package
+  pacman:
+    name: "{{ os_packages }}"
+    state: present
