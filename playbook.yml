@@ -4,9 +4,6 @@
   vars_files:
     - defaults/main.yml
 
-  roles:
-    - diodonfrost.terragrunt
-
   tasks:
     - name: Main entry playbook entrypoint
       include_tasks: tasks/main.yml
