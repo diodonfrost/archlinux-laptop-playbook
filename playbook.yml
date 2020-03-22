@@ -8,5 +8,5 @@
     - diodonfrost.terragrunt
 
   tasks:
-    - include_tasks: tasks/main.yml
-      tags: always
+    - name: Main entry playbook entrypoint
+      include_tasks: tasks/main.yml

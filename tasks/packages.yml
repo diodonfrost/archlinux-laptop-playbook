@@ -1,5 +1,18 @@
 ---
+- name: Package | Enable multilib repository
+  blockinfile:
+    path: /etc/pacman.conf
+    block: |
+      [multilib]
+      Include = /etc/pacman.d/mirrorlist
+
+- name: Package | Run the equivalent of "pacman -Syu"
+  pacman:
+    update_cache: yes
+    upgrade: yes
+
 - name: Package | Install os package
   pacman:
-    name: "{{ os_packages }}"
-    state: present
+    name: "{{ item }}"
+    state: latest
+  loop: "{{ os_packages }}"

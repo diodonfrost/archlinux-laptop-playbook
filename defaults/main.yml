@@ -7,9 +7,12 @@ os_packages:
   - dolphin
   - firefox
   - git
+  - gnome-calculator
+  - gnupg
   - htop
   - keepass
   - konsole
+  - kwalletmanager
   - networkmanager-openvpn
   - net-tools
   - nvidia
@@ -18,11 +21,14 @@ os_packages:
   - openvpn
   - packer
   - pavucontrol
+  - plasma-meta
   - python
   - python-pip
   - sddm
+  - spectacle
   - steam
   - strace
+  - sudo
   - terminator
   - terraform
   - vagrant
@@ -30,4 +36,3 @@ os_packages:
   - virtualbox
   - wine-staging
   - zsh
-
