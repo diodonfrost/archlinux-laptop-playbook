@@ -5,11 +5,13 @@ os_packages:
   - discord
   - docker
   - dolphin
+  - dolphin-plugins
   - firefox
   - git
   - gnome-calculator
   - gnupg
   - htop
+  - jre-openjdk
   - keepass
   - konsole
   - kwalletmanager
@@ -34,5 +36,7 @@ os_packages:
   - vagrant
   - vim
   - virtualbox
+  - wget
   - wine-staging
+  - xorg-server
   - zsh
