@@ -17,6 +17,8 @@ os_packages:
   - kwalletmanager
   - networkmanager-openvpn
   - net-tools
+  - nmap
+  - mpv
   - nvidia
   - nvidia-settings
   - okular
@@ -26,6 +28,7 @@ os_packages:
   - plasma-meta
   - python
   - python-pip
+  - qbittorrent
   - sddm
   - spectacle
   - steam
