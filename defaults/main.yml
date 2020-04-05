@@ -18,9 +18,6 @@ os_packages:
   - networkmanager-openvpn
   - net-tools
   - nmap
-  - mpv
-  - nvidia
-  - nvidia-settings
   - okular
   - openvpn
   - packer
@@ -43,3 +40,9 @@ os_packages:
   - wine-staging
   - xorg-server
   - zsh
+
+  video_packages:
+  - mpv
+  - nvidia
+  - nvidia-settings
+  - vlc
