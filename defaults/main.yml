@@ -31,6 +31,7 @@ os_packages:
   - steam
   - strace
   - sudo
+  - teamspeak3
   - terminator
   - terraform
   - vagrant
