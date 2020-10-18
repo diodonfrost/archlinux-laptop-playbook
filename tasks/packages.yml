@@ -11,14 +11,14 @@
     update_cache: yes
     upgrade: yes
 
-- name: Package | Install os package
+- name: Package | Install os packages
   pacman:
     name: "{{ item }}"
-    state: latest
+    state: present
   loop: "{{ os_packages }}"
 
-- name: Package | Install video package
+- name: Package | Install video packages
   pacman:
     name: "{{ item }}"
-    state: latest
+    state: present
   loop: "{{ video_packages }}"
