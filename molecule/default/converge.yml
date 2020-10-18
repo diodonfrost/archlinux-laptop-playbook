@@ -1,0 +1,17 @@
+---
+- name: Converge
+  hosts: all
+  roles:
+    - role: diodonfrost.java
+    - role: diodonfrost.git_lfs
+    - role: diodonfrost.ohmyzsh
+    - role: diodonfrost.packer
+    - role: diodonfrost.pulumi
+    - role: diodonfrost.terraform
+    - role: diodonfrost.terragrunt
+    - role: diodonfrost.vagrant
+
+  tasks:
+    - name: "Include archlinux-laptop-playbook"
+      include_role:
+        name: "archlinux-laptop-playbook"

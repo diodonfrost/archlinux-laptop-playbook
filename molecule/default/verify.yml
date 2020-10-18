@@ -1,0 +1,15 @@
+---
+- name: Verify
+  hosts: all
+  tasks:
+    - name: Verify | Vscode should be install
+      package:
+        name: code
+        state: present
+      register: vscode_present
+
+    - name: Verify | Verify commands outputs
+      assert:
+        that:
+          - not vscode_present.changed
+        success_msg: "All tests passed"
