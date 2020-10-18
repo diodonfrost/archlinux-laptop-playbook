@@ -4,6 +4,16 @@
   vars_files:
     - defaults/main.yml
 
+  roles:
+    - role: diodonfrost.java
+    - role: diodonfrost.git_lfs
+    - role: diodonfrost.ohmyzsh
+    - role: diodonfrost.packer
+    - role: diodonfrost.pulumi
+    - role: diodonfrost.terraform
+    - role: diodonfrost.terragrunt
+    - role: diodonfrost.vagrant
+
   tasks:
-    - name: Main entry playbook entrypoint
+    - name: Main playbook entrypoint
       include_tasks: tasks/main.yml

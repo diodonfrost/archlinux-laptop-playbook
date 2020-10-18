@@ -1,0 +1,16 @@
+- name: diodonfrost.java
+  version: 1.12.0
+- name: diodonfrost.git_lfs
+  version: 1.2.0
+- name: diodonfrost.ohmyzsh
+  version: 1.0.0
+- name: diodonfrost.packer
+  version: 1.5.0
+- name: diodonfrost.pulumi
+  version: 1.0.0
+- name: diodonfrost.terraform
+  version: 1.4.0
+- name: diodonfrost.terragrunt
+  version: 1.4.0
+- name: diodonfrost.vagrant
+  version: 1.5.0

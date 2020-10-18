@@ -11,7 +11,6 @@ os_packages:
   - gnome-calculator
   - gnupg
   - htop
-  - jre-openjdk
   - keepass
   - konsole
   - kwalletmanager
@@ -20,7 +19,6 @@ os_packages:
   - nmap
   - okular
   - openvpn
-  - packer
   - pavucontrol
   - plasma-meta
   - python
@@ -33,14 +31,11 @@ os_packages:
   - sudo
   - teamspeak3
   - terminator
-  - terraform
-  - vagrant
   - vim
   - virtualbox
   - wget
   - wine-staging
   - xorg-server
-  - zsh
 
 video_packages:
   - mpv
