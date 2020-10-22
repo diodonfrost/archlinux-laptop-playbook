@@ -1,3 +1,6 @@
 ---
-- name: Ensure selected packages are present
+- name: Packages | Ensure selected packages are present
   include_tasks: "packages.yml"
+
+- name: Containers | Setup Docker and Podman
+  include_tasks: "containers.yml"

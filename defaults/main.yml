@@ -3,7 +3,6 @@ os_packages:
   - ark
   - code
   - discord
-  - docker
   - dolphin
   - dolphin-plugins
   - firefox
