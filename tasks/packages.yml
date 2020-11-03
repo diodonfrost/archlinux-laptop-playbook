@@ -16,9 +16,3 @@
     name: "{{ item }}"
     state: present
   loop: "{{ os_packages }}"
-
-- name: Package | Install video packages
-  pacman:
-    name: "{{ item }}"
-    state: present
-  loop: "{{ video_packages }}"

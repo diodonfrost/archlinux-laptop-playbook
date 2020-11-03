@@ -16,6 +16,7 @@ os_packages:
   - networkmanager-openvpn
   - net-tools
   - nmap
+  - mpv
   - okular
   - openvpn
   - pavucontrol
@@ -23,6 +24,7 @@ os_packages:
   - python
   - python-pip
   - qbittorrent
+  - rhythmbox
   - sddm
   - spectacle
   - steam
@@ -32,11 +34,7 @@ os_packages:
   - terminator
   - vim
   - virtualbox
+  - vlc
   - wget
   - wine-staging
   - xorg-server
-
-video_packages:
-  - mpv
-  - rhythmbox
-  - vlc
