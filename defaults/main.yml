@@ -10,7 +10,7 @@ os_packages:
   - gnome-calculator
   - gnupg
   - htop
-  - keepass
+  - keepassxc
   - konsole
   - kwalletmanager
   - networkmanager-openvpn
@@ -20,7 +20,6 @@ os_packages:
   - okular
   - openvpn
   - pavucontrol
-  - plasma-meta
   - python
   - python-pip
   - qbittorrent
@@ -37,4 +36,4 @@ os_packages:
   - vlc
   - wget
   - wine-staging
-  - xorg-server
+  - lib32-gnutls
