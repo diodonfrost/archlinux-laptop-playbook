@@ -1,5 +1,6 @@
 ---
 os_packages:
+  - alacritty
   - ark
   - code
   - discord
@@ -16,6 +17,7 @@ os_packages:
   - konversation
   - kwalletmanager
   - networkmanager-openvpn
+  - lib32-gnutls
   - net-tools
   - nmap
   - mpv
