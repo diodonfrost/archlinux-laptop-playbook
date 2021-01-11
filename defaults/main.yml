@@ -5,13 +5,15 @@ os_packages:
   - discord
   - dolphin
   - dolphin-plugins
-  - firefox
   - git
-  - gnome-calculator
+  - github-cli
   - gnupg
   - htop
-  - keepass
+  - iotop
+  - jnettop
+  - keepassxc
   - konsole
+  - konversation
   - kwalletmanager
   - networkmanager-openvpn
   - net-tools
@@ -20,21 +22,18 @@ os_packages:
   - okular
   - openvpn
   - pavucontrol
-  - plasma-meta
+  - pycharm-community-edition
   - python
   - python-pip
-  - qbittorrent
-  - rhythmbox
-  - sddm
   - spectacle
   - steam
   - strace
   - sudo
-  - teamspeak3
   - terminator
+  - transmission-qt
   - vim
   - virtualbox
   - vlc
   - wget
   - wine-staging
-  - xorg-server
+  - wireshark-qt
