@@ -1,0 +1,14 @@
+---
+- name: Snap | Snap package should be present
+  command: snap version
+  check_mode: no
+  ignore_errors: yes
+  changed_when: false
+  failed_when: false
+  register: snap_result
+
+- name: Snap | Install snap packages
+  snap:
+    name: "{{ snap_packages }}"
+    state: present
+  when: snap_result.rc == 0

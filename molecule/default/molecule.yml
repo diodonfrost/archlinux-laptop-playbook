@@ -14,6 +14,7 @@ platforms:
     image: diodonfrost/ansible-archlinux:latest
     volumes:
       - /sys/fs/cgroup:/sys/fs/cgroup:ro
+      - /dev/fuse:/dev/fuse
     privileged: yes
     pre_build_image: yes
 provisioner:

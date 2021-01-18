@@ -40,3 +40,6 @@ os_packages:
   - wget
   - wine-staging
   - wireshark-qt
+
+snap_packages:
+  - spotify

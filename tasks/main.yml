@@ -4,3 +4,6 @@
 
 - name: Containers | Setup Docker and Podman
   include_tasks: "containers.yml"
+
+- name: Snapd | Setup snap packages
+  include_tasks: "snap.yml"
