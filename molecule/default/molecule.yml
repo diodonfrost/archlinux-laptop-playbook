@@ -11,7 +11,7 @@ driver:
   name: docker
 platforms:
   - name: linux
-    image: diodonfrost/archlinux-rolling-ansible:latest
+    image: diodonfrost/ansible-archlinux:latest
     volumes:
       - /sys/fs/cgroup:/sys/fs/cgroup:ro
     privileged: yes
