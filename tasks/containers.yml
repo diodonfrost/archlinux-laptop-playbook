@@ -11,9 +11,10 @@
 
 - name: Docker | Allow current user to use Docker
   user:
-    name: "{{ ansible_user_id }}"
+    name: "{{ container_rootless_user }}"
     groups: docker
     append: yes
+  when: container_rootless_user != "root"
 
 - name: Docker | Managed service
   service:
@@ -30,16 +31,18 @@
 
 - name: Podman | Set subuid
   copy:
-    content: "{{ ansible_user_id }}:165536:4096"
+    content: "{{ container_rootless_user }}:165536:4096"
     dest: /etc/subuid
     owner: root
     group: root
     mode: '0644'
+  when: container_rootless_user != "root"
 
 - name: Podman | Set subgid
   copy:
-    content: "{{ ansible_user_id }}:165536:4096"
+    content: "{{ container_rootless_user }}:165536:4096"
     dest: /etc/subgid
     owner: root
     group: root
     mode: '0644'
+  when: container_rootless_user != "root"

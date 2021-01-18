@@ -43,3 +43,6 @@ os_packages:
 
 snap_packages:
   - spotify
+
+# Linux rootless user which can run docker and podman
+container_rootless_user: "{{ ansible_user_id }}"
