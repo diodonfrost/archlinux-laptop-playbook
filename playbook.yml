@@ -8,6 +8,11 @@
     - role: diodonfrost.java
     - role: diodonfrost.git_lfs
     - role: diodonfrost.ohmyzsh
+      vars:
+        ohmyzsh_theme: powerlevel10k/powerlevel10k
+    - role: diodonfrost.p10k
+      vars:
+        zsh_plugin: ohmyzsh
     - role: diodonfrost.packer
     - role: diodonfrost.pulumi
     - role: diodonfrost.terraform

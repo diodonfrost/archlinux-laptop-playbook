@@ -4,6 +4,8 @@
   version: 1.2.0
 - name: diodonfrost.ohmyzsh
   version: 1.0.0
+- name: diodonfrost.p10k
+  version: 0.11.0
 - name: diodonfrost.packer
   version: 1.5.0
 - name: diodonfrost.pulumi
