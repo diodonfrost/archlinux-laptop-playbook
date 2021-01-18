@@ -35,6 +35,7 @@ os_packages:
   - transmission-qt
   - vim
   - virtualbox
+  - virtualbox-host-dkms
   - vlc
   - wget
   - wine-staging
