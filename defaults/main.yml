@@ -27,6 +27,7 @@ os_packages:
   - pycharm-community-edition
   - python
   - python-pip
+  - qemu-arch-extra
   - spectacle
   - steam
   - strace
