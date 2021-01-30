@@ -24,6 +24,7 @@ os_packages:
   - okular
   - openvpn
   - pavucontrol
+  - pdftk
   - pycharm-community-edition
   - python
   - python-pip
