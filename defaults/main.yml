@@ -42,6 +42,7 @@ os_packages:
   - wget
   - wine-staging
   - wireshark-qt
+  - zstd
 
 snap_packages:
   - spotify
