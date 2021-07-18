@@ -11,7 +11,7 @@
 - name: diodonfrost.pulumi
   version: 1.0.0
 - name: diodonfrost.terraform
-  version: 1.4.0
+  version: 1.6.1
 - name: diodonfrost.terragrunt
   version: 1.4.0
 - name: diodonfrost.vagrant
