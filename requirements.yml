@@ -13,6 +13,6 @@
 - name: diodonfrost.terraform
   version: 1.6.1
 - name: diodonfrost.terragrunt
-  version: 1.4.0
+  version: 1.6.0
 - name: diodonfrost.vagrant
   version: 1.5.0
