@@ -2,6 +2,8 @@
   version: 1.12.0
 - name: diodonfrost.git_lfs
   version: 1.2.0
+- name: diodonfrost.jetbrains_toolbox
+  version: 0.9.0
 - name: diodonfrost.ohmyzsh
   version: 1.0.0
 - name: diodonfrost.p10k
