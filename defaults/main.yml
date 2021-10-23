@@ -25,7 +25,6 @@ os_packages:
   - openvpn
   - pavucontrol
   - pdftk
-  - pycharm-community-edition
   - python
   - python-pip
   - qemu-arch-extra
